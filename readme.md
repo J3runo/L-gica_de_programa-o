@@ -2,4 +2,6 @@
 
 
 # Lógica de programação 
-Local onde estará salvo os projetos de logica de programação!!!  
+Repositório onde estará salvo os projetos de logica de programação!!! 
+
+        "Técnico Desenvolvimento de Software"  
