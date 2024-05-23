@@ -5,4 +5,7 @@
 
 Repositório onde estará salvo os projetos de lógica de programação!!! 
 
+Linguagens utilizadas.
 
+* Java 
+* JavaScript
