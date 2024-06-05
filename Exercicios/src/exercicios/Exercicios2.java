@@ -7,17 +7,20 @@ public class Exercicios2 {
 
     public static void main(String[] args) {
         
+         int contador = 0;
+       
+       while(contador == 0){
        Scanner leia = new Scanner(System.in); 
        System.out.println("digite altura");
-        int altura = leia.nextInt();
+        double altura = leia.nextDouble();
        System.out.println("digite largura"); 
-        int largura = leia.nextInt();
+        double largura = leia.nextDouble();
 
-        int resut = (altura * largura);
+        double resut = (altura * largura);
         
          System.out.println("Area do retangulo é: " + resut + "M²");
-        
-        
+        System.out.println("------------------------------------");
+       }
     }
     
 }

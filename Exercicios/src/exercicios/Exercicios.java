@@ -8,8 +8,9 @@ public class Exercicios {
 
     public static void main(String[] args) {
         
-        
-        
+       int contador = 0;
+       
+       while(contador == 0){ 
        System.out.println("digite um numero");
        
        Scanner leia = new Scanner(System.in); 
@@ -17,7 +18,8 @@ public class Exercicios {
         int numero = leia.nextInt();
         
         System.out.println(--numero);
-        
+         System.out.println("------------------------------------");
+    };
         
     }
     

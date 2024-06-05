@@ -7,6 +7,9 @@ public class Exercicios3 {
 
     public static void main(String[] args) {
         
+          int contador = 0;
+       
+       while(contador == 0){
        Scanner leia = new Scanner(System.in); 
        System.out.println("digite ano");
         int ano = leia.nextInt();
@@ -18,8 +21,8 @@ public class Exercicios3 {
         int result = (ano*365)+(mes*30)+ dia;
         
          System.out.println("O total de dias é: " + result);
-        
-        
+         System.out.println("------------------------------------");
+       }
     }
     
 }

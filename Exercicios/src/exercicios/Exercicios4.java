@@ -7,28 +7,31 @@ public class Exercicios4 {
 
     public static void main(String[] args) {
         
+          int contador = 0;
+       
+       while(contador == 0){
        Scanner leia = new Scanner(System.in); 
        System.out.println("digite numero de eleitores");
-        int Neleitores = leia.nextInt();
+        double Neleitores = leia.nextDouble();
        System.out.println("digite numero de votos brancos"); 
-        int votosB = leia.nextInt();
+        double votosB = leia.nextDouble();
        System.out.println("digite votos nulos"); 
-        int votosN = leia.nextInt();
+        double votosN = leia.nextDouble();
        System.out.println("digite votos validos"); 
-        int votosV = leia.nextInt();
+        double votosV = leia.nextDouble();
 
         
-        int result = (Neleitores );
-        int result2 = (votosB / 100 );
-        int result3 = (votosN / 100 );
-        int result4 = (votosV / 100 );
+       
+        double percentualB = (votosB * 100)/ Neleitores ;
+        double percentualN = (votosN * 100)/ Neleitores ;
+        double percentualV = (votosV * 100)/ Neleitores ;
         
-        System.out.println("O percentual é: " + result + "%");
-        System.out.println("O percentual é: " + result2+ "%");
-        System.out.println("O percentual é: " + result3+ "%");
-        System.out.println("O percentual é: " + result4+ "%");
-          
         
+        System.out.println("O percentual é: " + percentualB+ "%");
+        System.out.println("O percentual é: " + percentualN+ "%");
+        System.out.println("O percentual é: " + percentualV+ "%");
+        System.out.println("------------------------------------"); 
+       } 
     }
     
 }
