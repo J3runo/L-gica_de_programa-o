@@ -1,18 +1,26 @@
 import leia from "readline-sync"
 
-while (n1 != 11) {
-    console.log("Digite um numero");
+/*
+console.log("Digite um numero");
     var n1 = leia.questionFloat();
 
 
 
-    if (n1 > 11) {
+while (n2 != n1) {
 
-        console.log("menor ")
+
+    console.log("chute um numero");
+    var n2 = leia.questionFloat();
+
+
+
+    if (n2 > n1) {
+
+        console.log("Um numero menor ","\n")
     }
-    else if (n1 < 11) {
+    else if (n2 < n1) {
 
-        console.log("maior ")
+        console.log("Um numero maior ","\n")
 
 
     }
@@ -20,3 +28,28 @@ while (n1 != 11) {
 }
 console.log("Acertou mizeravi!!!")
 console.log("x-----x------x-----x")
+*/
+console.log("Digite quantos dias trabalhou");
+    var salario = leia.questionFloat();
+
+
+switch(salario){
+    case 1:
+        console.log("Recebe 200 reais ")
+        break;
+    case 2:
+        console.log("Recebe 400 reais")
+        break;
+    case 3:
+        console.log("Recebe 600 reais")
+        break;
+    case 4:
+        console.log("Recebe 800 reais")
+        break;
+    case 5:
+        console.log("Recebe 1000 reais")
+        break;
+    default:
+        console.log("Recebe mais de 1000 reais")
+
+}
