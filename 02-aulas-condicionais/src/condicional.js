@@ -28,8 +28,9 @@ while (n2 != n1) {
 }
 console.log("Acertou mizeravi!!!")
 console.log("x-----x------x-----x")
-*/
-console.log("Digite quantos dias trabalhou");
+*/ 
+
+/*console.log("Digite quantos dias trabalhou");
     var salario = leia.questionFloat();
 
 
@@ -52,4 +53,6 @@ switch(salario){
     default:
         console.log("Recebe mais de 1000 reais")
 
-}
+}*/
+
+
