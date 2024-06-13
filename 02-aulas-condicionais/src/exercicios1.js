@@ -9,11 +9,12 @@ var teste = leia.questionInt();
 
 if (teste == senha){
     console.log("Acesso permitido","\n")
-
+    console.log("Bem vindo")
 }
 else {
     console.log("Acesso Negado","\n")
+    console.log("Tente novamente")
 }
 
-console.log("Tente novamente")
+
 }

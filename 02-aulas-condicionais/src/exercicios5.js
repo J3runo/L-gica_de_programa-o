@@ -19,11 +19,12 @@ var media = (total/2)
 console.log("Esse é o valor total R$:",total,"\n")
 console.log("Esse é o valor medio R$",media,"\n")
 
-if(valor1 >=20){
+if(valor1 >20){
     console.log("O cliente",nome1,"Gastou mais com o valor de R$:",valor1 )
     
 } 
-if (valor2 >=20){
+if (valor2 >20){
     console.log("O cliente",nome2,"Gastou mais com o valor de R$:",valor2)
     
 }
+

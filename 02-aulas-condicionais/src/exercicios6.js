@@ -27,9 +27,10 @@ var totalmoedas10 = (moeda10 * 0.10)
 var totalmoedas5 = (moeda5 * 0.05)
 
 var total = (totalmoedas1+totalmoedas50+totalmoedas25+totalmoedas10+totalmoedas5)
+var troco = (valor - total)
 
-if(total >= valor){
-    console.log("Compra aprovada! seu troco é R$:",(valor-total))
+if(total > valor){
+    console.log("Compra aprovada! no valor de: R$",valor, "seu troco é R$:",troco)
 }
 else{
     console.log("Compra Recusada, o valor do produto é superior a R$:", total)
