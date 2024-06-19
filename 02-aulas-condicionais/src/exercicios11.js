@@ -7,7 +7,7 @@ var Gols1 = leia.questionInt(" Quantidade de Gols do " + time1 + "\n")
 var Gols2 = leia.questionInt(" Quantidade de Gols do " + time2 + "\n")
 
 
-var dif = (Gols1-Gols2)  * -1
+var dif = Gols1-Gols2 * -1
 
 
 if(dif === 0 ){
