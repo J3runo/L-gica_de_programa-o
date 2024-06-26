@@ -13,3 +13,5 @@ while(val >= joao){
     ano++;
 }
 console.log("joao sera maior que valentina em ", ano,"anos")
+console.log("altura valentina",val.toFixed(2))
+console.log("altura joao",joao.toFixed(2))
