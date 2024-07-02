@@ -33,13 +33,13 @@ while (i < 4) {
   altura = leia.questionFloat("Digite a altura (em metros): ");
 
   if (i === 0) {
-    // Primeira repetição
+    // Primeira repetição joga os dados nas variaveis
     maiorA = altura;
     menorA = altura;
   }
 
   if (genero === 1) {
-    // Se for feminino
+    // Se for feminino soma altura q ja tem com a nova 
     alturaF += altura;
   }
 
