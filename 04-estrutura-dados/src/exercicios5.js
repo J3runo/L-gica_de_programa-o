@@ -1,5 +1,18 @@
 import leia, { question, questionInt } from "readline-sync"
 
+var lista =[1,2,3,4,5,6,7,8,9]
+var lista2 = []
+
+for(var i = lista.length -1; i>=0; i--){
+    lista2.push(lista[i])
+}
+console.log("LISTA NORMAL: ",lista,"\n","LISTA INVERTIDA: ",lista2)
+
+
+
+
+
+/*
 var lista = []
 
 for(var i = 0; i<10; i++){
@@ -14,4 +27,4 @@ while(inicio<fim){
     inicio++
     fim--
 }
-console.log(lista)
+console.log(lista)*/

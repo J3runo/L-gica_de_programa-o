@@ -5,8 +5,8 @@ var tempMin = []
 var aux = 0
 
 for(var i = 1; i<=30;i++){
-    var max = Math.random()*12 + 20
-    var min = Math.random()*12 + 20
+    var max = Math.random() * 23 + 12
+    var min = Math.random() * 23 + 12
     if(min > max){
         aux = min
         min = max

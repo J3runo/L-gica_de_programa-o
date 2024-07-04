@@ -3,7 +3,7 @@ var pai = []
 var mae = []
 var filho = []
 
-for(var i = 0; i<=20; i++ ){
+for(var i = 0; i<=50; i++ ){
     pai.push (parseInt(Math.random()*100))
     mae.push (parseInt(Math.random()*100))
     if(i %2===0){
