@@ -8,22 +8,21 @@ for (var i = 0; i < 9; i++) {
   lista2.push(parseInt(Math.random() * 100));
   lista3.push(parseInt(Math.random() * 100));
   if (i < 3) {
-    listaF.push("primera lista " + lista[i]);
+    listaF.push("1°: "+lista[i]);
   } else if (i >= 3 && i < 6) {
-    listaF.push("Segunda lista " + lista2[i]);
+    listaF.push("2°: "+lista2[i]);
   } else {
-    listaF.push("Terceira lista " + lista3[i]);
+    listaF.push("3°: "+lista3[i]);
   }
 }
 
-console.log("lista " + lista);
+console.table( lista);
 console.log("---------------------------------");
-console.log("lista2 " + lista2);
+console.table(lista2);
 console.log("---------------------------------");
-console.log("lista3 " + lista3);
+console.table( lista3);
 console.log("---------------------------------");
 
-for (var i = 0; i < listaF.length; i++) {
-  console.log(listaF[i]);
-  console.log("---------------------------------");
-}
+
+console.table(listaF);
+

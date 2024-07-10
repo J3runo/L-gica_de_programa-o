@@ -2,7 +2,7 @@ var lista = [];
 var duplicados = [];
 
 for (var i = 0; i < 10; i++) {
-  lista.push(parseInt(Math.random() * 50));
+  lista.push(parseInt(Math.random() * 15));
 }
 console.log("\nLista gerada: " + lista);
 console.log("-----------------------------------------------");
