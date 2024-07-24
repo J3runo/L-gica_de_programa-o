@@ -51,13 +51,15 @@ if (Ppreto > 40) {
       Ppreto.toFixed(2) +
       "%"
   );
-} else if (Pverde > 40) {
+}
+if (Pverde > 40) {
   console.log(
     "A roleta pode estar viciada: Cor verde com frequência de " +
       Pverde.toFixed(2) +
       "%"
   );
-} else if (Pvermelho > 40) {
+}
+if (Pvermelho > 40) {
   console.log(
     "A roleta pode estar viciada: Cor vermelho com frequência de " +
       Pvermelho.toFixed(2) +
