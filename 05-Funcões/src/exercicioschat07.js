@@ -176,7 +176,7 @@ if (operação === 0) {
 
 console.log("Resultado = " + result);
 */
-
+/*
 var texto = leia.question("Escreva um frase: ");
 var palavras = texto.split(" ");
 var cont = 0;
@@ -187,3 +187,4 @@ for (var i = 0; i < palavras.length; i++) {
 console.log(texto);
 console.log(palavras);
 console.log("Numero de palavras: " + cont);
+*/
